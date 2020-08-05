@@ -2,8 +2,6 @@ Created with [Create React App](https://github.com/facebook/create-react-app).
 
 # Product Huddle
 
-![Product Huddle](src/images/producthuddleico.png)
-
 Product Huddle is a project designed to consider a recurring problem in the product development landscape. How do you encourange product consensus across entire organizations, not just product and development teams? 
 
 ## What's inside?
@@ -12,9 +10,13 @@ Product Huddle is a project designed to consider a recurring problem in the prod
 
 Track software bugs across the organization.
 
+![Bug Board](src/Images-ScreenShots/ScreenShot3.png)
+
 ### Design Board
 
 Unified design hub for ux and product teams to post about design changes, write user stories, brainstorm about where to go next.
+
+![Design Board](src/Images-ScreenShots/ScreenShot2.png)
 
 ### Live Meeting
 
