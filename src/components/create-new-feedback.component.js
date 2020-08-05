@@ -67,7 +67,7 @@ export default class NewFeedback extends Component{
                     onChange={this.onChangeFeedback}
                     />
               </div>
-              <div className="form-group">
+              <div className="form-group" id="submitCommentButton">
                 <input type="submit" value="Add your comment!" className="btn btn-primary" id="commentSubmitButton"/>
               </div>
             </form>

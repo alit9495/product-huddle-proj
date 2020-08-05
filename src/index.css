@@ -8,8 +8,8 @@
 }
 
 #navIcon{
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
 }
 
 #homeHeading{
@@ -240,6 +240,10 @@
   margin-left: 10%;
 }
 
+#submitCommentButton{
+  margin-top: -1.5%;
+}
+
 /*other elems*/
 
 #textarea{
@@ -259,6 +263,7 @@ footer{
   text-align: center;
   overflow: hidden;
 }
+
 #footerHeading{
   padding-bottom: 3%;
 }
