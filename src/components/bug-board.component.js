@@ -51,14 +51,6 @@ export default class BugBoard extends Component{
         })
     }
 
-    //display all of the bugs wrapper to keep everything a bit cleaner 
-    bugList() {
-        return this.state.bugs.map(currentbug => {
-          return <Bug bug={currentbug} deleteBug={this.deleteBug} key={currentbug._id}/>;
-        })
-      }
-
-
     render() {
         return (
           <div>
@@ -88,7 +80,10 @@ export default class BugBoard extends Component{
                     </div>
                 </div>
               {/*grab the list of bugs to display*/}
-                { this.bugList() }
+                {this.state.bugs.map(currentbug => {
+                        return <Bug bug={currentbug} deleteBug={this.deleteBug} key={currentbug._id}/>;
+                    })
+                } 
             </div>
           </div>
         )
