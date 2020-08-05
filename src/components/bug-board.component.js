@@ -73,10 +73,10 @@ export default class BugBoard extends Component{
                         Assigned To
                     </div>
                     <div className="col-sm" id="bugBoardDisplayColumn">
-                        Due By
+                        Needed Date
                     </div>
                     <div className="col-sm" id="bugBoardDisplayColumn">
-                        Controls
+                        Available Actions 
                     </div>
                 </div>
               {/*grab the list of bugs to display*/}

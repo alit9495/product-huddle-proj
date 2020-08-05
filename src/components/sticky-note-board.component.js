@@ -58,7 +58,7 @@ export default class StickyNoteBoard extends Component {
                     </div>
                      
                     {/*id="designCardLinkButton">*/}
-                    <Link to={"/notes/new"}><button id="boardBtnTop" className="btn btn-success">Create A New Note</button></Link>              
+                    <Link to={"/notes/new"}><button id="boardBtnTop" className="btn btn-success">Add New Note</button></Link>              
                     <div id="designCardContainer">
                         {this.state.notes.map(currentnote => {
                                 return <StickyNote note={currentnote} deleteNote={this.deleteNote} key={currentnote._id} />
