@@ -4,6 +4,8 @@ Created with [Create React App](https://github.com/facebook/create-react-app).
 
 Product Huddle is a project designed to consider a recurring problem in the product development landscape. How do you encourange product consensus across entire organizations, not just product and development teams? 
 
+![Home](src/Images-ScreenShots/ScreenShot1.png)
+
 ## What's inside?
 
 ### Bug Board
