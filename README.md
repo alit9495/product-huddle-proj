@@ -24,6 +24,8 @@ Unified design hub for ux and product teams to post about design changes, write 
 
 Fully anonymous feedback hub to be used during remote meetings. Team members post comments and the team can respond, directing the meeting where it really needs to go.
 
+![Live meeting](src/Images-ScreenShots/ScreenShot4.png)
+
 ### Made With
 
 - Mongo db
